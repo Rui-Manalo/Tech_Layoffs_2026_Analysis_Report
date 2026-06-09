@@ -5,7 +5,7 @@ A data analytics project exploring workforce trends, AI displacement risk, and h
 
 ## Dataset
 
-- **Source:**[ [Kaggle — Tech Layoffs & Hiring Trends 2026](https://www.kaggle.com/)](https://www.kaggle.com/datasets/amaymishra11/tech-layoffs-and-hiring-trends-2026)
+- **Source:**[ [Kaggle - Tech Layoffs & Hiring Trends 2026](https://www.kaggle.com/)](https://www.kaggle.com/datasets/amaymishra11/tech-layoffs-and-hiring-trends-2026)
 - **Table used:** `tech_layoffs`
 - **Key columns:** `industry`, `company_name`, `reason_for_layoffs`, `top_hiring_role`, `ai_replacement_risk`, `layoffs_count`, `open_roles`, `job_security_score`
 ---
@@ -68,7 +68,7 @@ WHERE rn = 1;
 
 **Key Finding:** Social Media leads with 374 layoffs driven by AI Automation. FinTech and Cloud cite Overhiring Correction (367 and 361 respectively). Cybersecurity and E-Commerce are driven by Cost Cutting.
 
-**Insight:** Industries closer to AI adoption (Social Media, Gaming) are losing jobs to automation, while sectors that over-expanded during 2020–2022 (FinTech, Cloud) are simply right-sizing their workforce — not being replaced by technology.
+**Insight:** Industries closer to AI adoption (Social Media, Gaming) are losing jobs to automation, while sectors that over-expanded during 2020–2022 (FinTech, Cloud) are simply right-sizing their workforce - not being replaced by technology.
 
 ---
 
@@ -119,7 +119,7 @@ ORDER BY avg_replacement_risk DESC;
 ![Result](results/3.png)
 ![Visual](Visuals/Pb3.png)
 
-**Key Finding:** Social Media has the highest AI risk at 7.26. E-Commerce follows at 7.25, AI at 7.22. Gaming is the lowest at 7.16 — but the overall spread is very narrow (7.16–7.26).
+**Key Finding:** Social Media has the highest AI risk at 7.26. E-Commerce follows at 7.25, AI at 7.22. Gaming is the lowest at 7.16 - but the overall spread is very narrow (7.16–7.26).
 
 **Insight:** The narrow range across all industries suggests AI replacement risk is a sector-wide threat, not isolated to one area. No industry is truly "safe" from automation pressure, the entire tech landscape faces comparable risk levels.
 
@@ -145,7 +145,7 @@ ORDER BY total_layoff_count DESC;
 
 **Key Finding:** Databricks leads all companies at 3,336,757 total layoffs. Google (3.3M), Meta (3.18M), and Spotify (3.15M) follow closely. Microsoft and Apple rank lower at ~2.96M–3M.
 
-**Insight:** Surprisingly, Databricks — an AI-native company — tops layoff counts, which contradicts the assumption that AI companies are only hiring. Even high-growth AI firms are restructuring internally, suggesting role transformation rather than pure expansion.
+**Insight:** Surprisingly, Databricks - an AI-native company - tops layoff counts, which contradicts the assumption that AI companies are only hiring. Even high-growth AI firms are restructuring internally, suggesting role transformation rather than pure expansion.
 
 ---
 
@@ -168,7 +168,7 @@ ORDER BY avgAverageScore DESC;
 
 **Key Finding:** Gaming scores highest at 5.9, followed by FinTech at 5.88. AI and Cloud sit mid-range at 5.8 and 5.78. Social Media is the lowest at 5.73.
 
-**Insight:** Gaming's top job security score is notable given its mid-tier AI risk — suggesting the industry retains human creative talent despite automation pressure. Social Media's lowest security score aligns with its highest AI automation layoffs (Q1), confirming a consistent risk signal for that sector.
+**Insight:** Gaming's top job security score is notable given its mid-tier AI risk - suggesting the industry retains human creative talent despite automation pressure. Social Media's lowest security score aligns with its highest AI automation layoffs (Q1), confirming a consistent risk signal for that sector.
 
 ---
 
@@ -220,7 +220,7 @@ LIMIT 10;
 
 **Key Finding:** Every major company in the dataset shows high layoffs alongside significant open roles. Databricks shows one of the largest simultaneous hire-and-fire behaviors (3.37M layoffs, 1.74M open roles).
 
-**Insight:** These paradox companies are not shrinking — they are transforming. They are cutting legacy or generalist roles while aggressively hiring specialized talent. Job seekers should actively target these companies as they represent high demand for the right skill set.
+**Insight:** These paradox companies are not shrinking - they are transforming. They are cutting legacy or generalist roles while aggressively hiring specialized talent. Job seekers should actively target these companies as they represent high demand for the right skill set.
 
 ---
 
@@ -295,7 +295,7 @@ ORDER BY aireplace ASC,
 
 **Key Finding:** Gaming ranks best overall as lowest AI risk (7.16) and among the lowest layoff counts (8.55M). FinTech is second with risk 7.17. Social Media ranks worst on all three dimensions combined.
 
-**Insight:** Gaming and FinTech emerge as the most balanced industries for job stability. Gaming's reliance on human creativity limits full automation, while FinTech's regulatory environment requires human oversight. Job seekers prioritizing long-term stability should target these two sectors — especially in ML Engineer (Gaming) and Frontend Developer (FinTech) roles identified in Q2.
+**Insight:** Gaming and FinTech emerge as the most balanced industries for job stability. Gaming's reliance on human creativity limits full automation, while FinTech's regulatory environment requires human oversight. Job seekers prioritizing long-term stability should target these two sectors - especially in ML Engineer (Gaming) and Frontend Developer (FinTech) roles identified in Q2.
 
 ---
 
