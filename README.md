@@ -337,4 +337,4 @@ Tech_Layoffs_SQL_Analysis/
 
 ## Author
 
-Made by Rui Manalo · [LinkedIn](www.linkedin.com/in/rui-manalo-71350a376), [Portfolio](https://www.datascienceportfol.io/ruicourse3)
+Made by Rui Manalo · [LinkedIn](https://www.linkedin.com/in/rui-manalo-71350a376), [Portfolio](https://www.datascienceportfol.io/ruicourse3)
